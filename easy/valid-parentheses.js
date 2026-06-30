@@ -23,7 +23,7 @@ var isValid = function (s) {
     }
   }
 
-  return pares.length === 0 ? true : false;
+  return pares.length === 0;
 };
 
-console.log(isValid("([)]"));
+console.log(isValid("()"));
